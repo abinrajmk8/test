@@ -3,6 +3,7 @@ import cors from "cors";
 import { getServerNetId ,getDeviceIP} from "./network/findNetId.js";  // Importing functions from findIp.js
 import { getMacAddressForOwnIp } from './network/ownMac.js';  // Import the function to get MAC address
 import {scanNetwork,getMacAddress} from './testings/ping.js';  // Import ping.js
+import mongoose from "mongoose";
 
 import {exec} from 'child_process'
 
